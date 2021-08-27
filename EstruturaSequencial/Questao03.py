@@ -1,6 +1,6 @@
-num1 = int(input("Digite o primeiro número: "))
-num2 = int(input("Digite o segundo número: "))
+num1 = input('Digite o primeiro número: ')
+num2 = input('Digite o segundo número: ')
 
-sum = num1 + num2
+sum = float(num1) + float(num2)
 
-print("A soma dos dois números é ", sum)
+print('A soma de {0} e {1} é {2}'.format(num1, num2, sum))
